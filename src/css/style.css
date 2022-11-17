@@ -2,7 +2,7 @@
 	    fundacion-v03
         Built with Blocs
 -----------------------------------------------------------------------------------*/
- 
+
 body{
 	margin:0;
 	padding:0;
@@ -664,17 +664,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:40px;
 		line-height:40px;
 	}
-	.text-right{
+	/* .text-right{
 	}
 	.text-left{
 	}
 	.text-center{
-	}
+	} */
 	.btn-book-ticket-style{
 		border-radius:25px 25px 25px 25px;
 	}
-	.margin-footer-10{
-	}
+	/* .margin-footer-10{
+	} */
 	
 }
 
