@@ -7,18 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?8545">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/feather.min.css">
 	
     <title>Voluntariado</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
 <!-- Analytics -->
-{include file="ga.html"} 
+<!--{include file="ga.html"} -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179194275-1"></script>
+<script id="replace_with_ga" src="../js/ga.js"></script>  
 <!-- Analytics END -->
     
 </head>
@@ -32,7 +34,8 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-{include file="header.html"}
+<script id="replace_with_header" src="../js/header.js"></script>   
+<!--{include file="header.html"}-->
 <!-- bloc-0 END -->
 
 <!-- bloc-16 -->
@@ -57,7 +60,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/voluntario.jpeg" class="img-fluid mx-auto d-block lazyload" alt="voluntario" />
+				<img src="../../public/assets/img/voluntario.jpeg" class="img-fluid mx-auto d-block lazyload" alt="voluntario" />
 			</div>
 			<div class="col-md-6">
 				<p class="p-18-style text-a-justify">
@@ -80,22 +83,24 @@
 
 
 <!-- bloc-5 -->
-{include file="form.html"} 
+<script id="replace_with_form" src="../js/form.js"></script>   
+<!--{include file="form.html"}--> 
 <!-- bloc-5 END -->
 
 </div>
 <!-- Main container END -->
     
 <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.js?3711"></script>
-<script src="./js/bootstrap.bundle.js?275"></script>
-<script src="./js/blocs.min.js?3813"></script>
-<script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?9157"></script>
-<script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/mresize.js?8966"></script>
-<script src="./js/mtitle.js?3107"></script>
-<script src="./js/instagramFeed.js?2035"></script>
+<script src="../js/jquery-3.5.1.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/blocs.min.js?3813"></script>
+<script src="../js/jqBootstrapValidation.js"></script>
+<script src="../js/formHandler.js?6029"></script>
+<script src="../js/lazysizes.min.js" defer></script>
+<script src="../js/mresize.js"></script>
+<script src="../js/mtitle.js"></script>
+<script src="../js/instagramFeed.min.js"></script>
+<script src="../js/instagramFeed.js"></script>
 <!-- Additional JS END -->
 
 </body>
