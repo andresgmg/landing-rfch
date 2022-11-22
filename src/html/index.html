@@ -14,15 +14,12 @@
     <title>Rescate Felino Chile Fundación</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="../css/instagramFeed.min.css"> -->
+
     <!-- Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179194275-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-179194275-1');
-	</script>
+	<script id="replace_with_ga" src="../js/ga.js"></script>  
     <!-- Analytics END -->
+
 	</head>
     <body>
         <!-- Preloader -->
@@ -34,7 +31,10 @@
         <div class="page-container">
             
         <!-- bloc-0 -->
+
+		<script id="replace_with_header" src="../js/header.js"></script>   
         <!-- {include file="header.html"} -->
+
         
         <!-- bloc-2 -->
         <div class="bloc bgc-4608 bg-banner-04 barra-inferior l-bloc" id="bloc-2">
@@ -91,13 +91,13 @@
         						</h1>
         					</div>
         					<div class="card-body bgc-deep-pink">
-        						<img src="../../public/assets/img/lazyload-ph.png" data-src="../../public/assets/img/icono-gato.png" class="img-fluid mx-auto d-block img-style pad-iconos lazyload" alt="icono gato" />
+        						<img src="../../public/assets/img/lazyload-ph.png" data-src="../../public/assets/img/icono-gato.png" loading="lazy" class="img-fluid mx-auto d-block img-style pad-iconos lazyload" alt="icono gato" />
         						<p class="text-lg-center text-center">
         							¿Quieres adoptar? Llena el formulario.
         						</p>
         					</div>
         					<div class="card-footer bgc-deep-pink">
-        						<a href="adopta" class="btn btn-lg btn-block btn-style btn-thulian-pink">Leer más</a>
+        						<a href="adopta.html" class="btn btn-lg btn-block btn-style btn-thulian-pink">Leer más</a>
         					</div>
         				</div>
         			</div>
@@ -117,7 +117,7 @@
         						</p>
         					</div>
         					<div class="card-footer bgc-light-salmon">
-        						<a href="tenencia-responsable" class="btn btn-lg btn-block btn-style btn-thulian-pink">Leer más</a>
+        						<a href="tenencia-responsable.html" class="btn btn-lg btn-block btn-style btn-thulian-pink">Leer más</a>
         					</div>
         				</div>
         			</div>
@@ -137,7 +137,7 @@
         						</p>
         					</div>
         					<div class="card-footer bgc-medium-violet-red">
-        						<a href="voluntariado" class="btn btn-lg btn-block btn-style btn-thulian-pink">Leer más</a>
+        						<a href="voluntariado.html" class="btn btn-lg btn-block btn-style btn-thulian-pink">Leer más</a>
         					</div>
         				</div>
         			</div>
@@ -196,7 +196,7 @@
         	<div class="container ">
         		<div class="row no-gutters bgc-white">
         			<div class="col-md-12 offset-lg--1 col-lg-6">
-        				<img src="../../public/assets/img/lazyload-ph.png" data-src="../../public/assets/img/amor.jpg" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+        				<img src="../../public/assets/img/lazyload-ph.png" data-src="../../public/assets/img/amor.jpg" loading="lazy" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
         			</div>
         			<div class="align-self-center offset-md-1 col-md-10 col-sm-10 offset-sm-1 offset-1 col-10 offset-lg-1 col-lg-4">
         				<h2 class="mg-md text-center text-lg-left">
@@ -218,7 +218,8 @@
         <!-- bloc-5 END -->
         
         <!-- FORM-FOOTER -->
-        {include file="form.html"} 
+		<script id="replace_with_form" src="../js/form.js"></script>   
+        <!--{include file="form.html"} -->
         <!-- FORM-FOOTER END -->
         
         <!-- Main container END -->
