@@ -18,7 +18,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Preloader */
 
-.page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
+.page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("../../public/assets/img/pageload-spinner.gif") no-repeat center center;}
 
 /* = Blocs
 -------------------------------------------------------------- */
@@ -567,22 +567,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Bloc image backgrounds */
 
 .bg-banner-04{
-	background-image:url("img/banner-04.jpg");
+	background-image:url("../../public/assets/img/banners/banner-04.jpg");
 }
 .bg-banner-05{
-	background-image:url("img/banner-05.jpg");
+	background-image:url("../../public/assets/img/banners/banner-05.jpg");
 }
 .bg-banner-07{
-	background-image:url("img/banner-07.jpg");
+	background-image:url("../../public/assets/img/banners/banner-07.jpg");
 }
 .bg-banner-08{
-	background-image:url("img/banner-08.jpg");
+	background-image:url("../../public/assets/img/banners/banner-08.jpg");
 }
 .bg-banner-09{
-	background-image:url("img/banner-09.jpg");
+	background-image:url("../../public/assets/img/banners/banner-09.jpg");
 }
 .bg-banner-10{
-	background-image:url("img/banner-10.jpg");
+	background-image:url("../../public/assets/img/banners/banner-10.jpg");
 }
 
 
